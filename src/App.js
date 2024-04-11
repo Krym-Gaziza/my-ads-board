@@ -1,13 +1,21 @@
-import React from 'react';
-import AdList from './containers/AdList';
+import React, { Suspense } from 'react';
+import { NoticesProvider } from './contexts/NoticesContext';
+import AddNoticeForm from './components/AddNoticeForm';
+import NoticeList from './components/NoticeList';
+import './App.css'; 
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Доска объявлений</h1>
-      <AdList />
-    </div>
+    <NoticesProvider>
+      <div className="App">
+        <h1>Interactive Noticeboard</h1>
+        <Suspense fallback={<div>Loading...</div>}>
+          <AddNoticeForm />
+          <NoticeList />
+        </Suspense>
+      </div>
+    </NoticesProvider>
   );
-}
+};
 
 export default App;

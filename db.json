@@ -1,0 +1,7 @@
+{
+    "ads": [
+      { "id": 1, "title": "First ad", "description": "Description of first ad" },
+      { "id": 2, "title": "Second ad", "description": "Description of second ad" }
+    ]
+  }
+  

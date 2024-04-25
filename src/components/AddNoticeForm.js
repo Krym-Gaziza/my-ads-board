@@ -1,5 +1,3 @@
-// src/components/AddNoticeForm.js
-
 import React, { useState } from 'react';
 import { useNotices } from '../contexts/NoticesContext';
 

@@ -1,5 +1,3 @@
-// src/Notice.js
-
 import React, { useState } from 'react';
 
 const Notice = ({ notice, onDelete, onUpdate }) => {

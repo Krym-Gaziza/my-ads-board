@@ -1,5 +1,3 @@
-// src/actions/noticeActions.js
-
 import { ADD_NOTICE, DELETE_NOTICE } from './types';
 
 export const addNotice = (text) => {

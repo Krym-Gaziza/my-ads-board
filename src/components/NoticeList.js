@@ -1,5 +1,3 @@
-// src/components/NoticeList.js
-
 import React from 'react';
 import { useNotices } from '../contexts/NoticesContext';
 import Notice from './Notice';

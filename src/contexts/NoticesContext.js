@@ -1,5 +1,3 @@
-// src/contexts/NoticesContext.js
-
 import React, { createContext, useState, useCallback, useContext } from 'react';
 
 const NoticesContext = createContext();
